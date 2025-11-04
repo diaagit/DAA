@@ -126,7 +126,7 @@ public class HuffmanEncoding {
                     break;
 
                 case 5:
-                    System.out.println("Exiting...");
+                    System.out.println("Exiting Program...");
                     sc.close();
                     return;
 
@@ -136,3 +136,14 @@ public class HuffmanEncoding {
         }
     }
 }
+
+
+/*       (*,4)
+     /     \
+ (B,2)    (*,2)
+          /   \
+       (A,1) (C,1)
+
+    input: "ABBC"
+  
+ */    
