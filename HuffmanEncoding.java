@@ -127,7 +127,6 @@ public class HuffmanEncoding {
 
                 case 5:
                     System.out.println("Exiting Program...");
-                    sc.close();
                     return;
 
                 default:
