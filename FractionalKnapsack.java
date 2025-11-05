@@ -59,6 +59,14 @@ public class FractionalKnapsack {
 }
 
 
+
+
+
+
+
+
+
+
 /* INPUT:
 Enter number of items: 3
 Enter value and weight of item 1: 60 10
@@ -69,3 +77,12 @@ Enter capacity of knapsack: 50
 OUTPUT:
 Maximum value that can be obtained = 240.0
 */
+
+/*Step	Item Picked	Weight of item	currentWeight before	Can take full?	Weight taken	Value added	totalValue after
+1	Item1	10	0	Yes	10	60	60
+2	Item2	20	10	Yes	20	100	160
+3	Item3	30	30	No	20 (remaining)	120 * (20/30) = 80	240
+After step 1: currentWeight = 10, totalValue = 60.
+After step 2: currentWeight = 30, totalValue = 160.
+Remaining capacity before item3 = 50 - 30 = 20. Item3 weight is 30, so we take fraction 20/30 = 2/3. Value added = 120 * 2/3 = 80. Final totalValue = 160 + 80 = 240. Knapsack now full.
+Final answer: Maximum value = 240.0 */

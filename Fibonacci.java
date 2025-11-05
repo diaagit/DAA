@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Fibonacci {
 
     // Recursive method
-    public static int fibonacciRecursive(int n) {
+    static int fibonacciRecursive(int n) {
         if (n <= 1) 
             return n;
         
@@ -11,7 +11,7 @@ public class Fibonacci {
     }
 
     // Iterative method
-    public static void fibonacciIterative(int n) {
+    static void fibonacciIterative(int n) {
         int first = 0, second = 1;
         System.out.println("Fibonacci series using Iterative method:");
         for (int i = 0; i < n; i++) {
