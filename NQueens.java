@@ -84,5 +84,6 @@ public class NQueens {
     }
 }
 
-
+//TC: O(N!) in the worst case as we may need to explore all permutations of queen placements.
+//SC: O(N^2) for the board representation.
 

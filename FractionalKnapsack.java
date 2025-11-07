@@ -64,7 +64,8 @@ public class FractionalKnapsack {
 
 
 
-
+//TC: O(n log n) due to sorting the items based on value-to-weight ratio.
+//SC: O(1) as we are using only a constant amount of extra space.
 
 
 /* INPUT:

@@ -51,3 +51,6 @@ Enter value and weight of each item:
 Enter capacity of knapsack: 50
 Maximum value that can be obtained = 220
  */
+
+ //TC: O(n*capacity) where n is the number of items.
+ //SC: O(n*capacity) for the DP table.

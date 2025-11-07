@@ -146,3 +146,6 @@ public class HuffmanEncoding {
     input: "ABBC"
   
  */    
+
+//TC: O(n log n) due to building the priority queue and tree construction.
+//SC: O(n) for storing the frequency map and Huffman codes.
